@@ -13,15 +13,7 @@ COPY android-ndk-r22 /opt
 # https://dl.google.com/android/repository/android-ndk-r22-linux-x86_64.zip
 
 # Add ndk-build to the search path
-ENV PATH="/opt/:${PATH}"
+COPY bash_rc.sh /home/noroot/.bashrc
+COPY bash_rc.sh /root/.bashrc
 
-ENV CROSS /opt/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi
-
-ENV CC=${CROSS}-gcc  \
-    CXX=${CROSS}-g++ \
-    CPP=${CROSS}-cpp \ 
-    LD=${CROSS}-ld   \
-    STRIP=${CROSS}-strip  \
-    AR=${CROSS}-ar   \
-    AS=${CROSS}-as   
 

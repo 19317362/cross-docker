@@ -35,6 +35,10 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 	&& ssh-keygen -t rsa -P "" -f /etc/ssh/ssh_host_rsa_key \ 
 	&& ssh-keygen -t ecdsa -P "" -f /etc/ssh/ssh_host_ecdsa_key \
 	&& ssh-keygen -t ed25519 -P "" -f /etc/ssh/ssh_host_ed25519_key \
+    && useradd noroot -u 1000 -s /bin/bash \
+    && mkdir /home/noroot \
+    && chown noroot:noroot /home/noroot \
+    && echo "noroot:build" | chpasswd    \
 	&& echo "root:admin" | chpasswd    
 
 
