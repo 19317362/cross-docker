@@ -5,8 +5,6 @@
 FROM cd-base:latest
 
 LABEL description="Build container - NDK R22"
-ENV TZ=Asia/Shanghai
-
 
 # Installing packages and glibc
 
@@ -16,3 +14,14 @@ COPY android-ndk-r22 /opt
 
 # Add ndk-build to the search path
 ENV PATH="/opt/:${PATH}"
+
+ENV CROSS /opt/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi
+
+ENV CC=${CROSS}-gcc  \
+    CXX=${CROSS}-g++ \
+    CPP=${CROSS}-cpp \ 
+    LD=${CROSS}-ld   \
+    STRIP=${CROSS}-strip  \
+    AR=${CROSS}-ar   \
+    AS=${CROSS}-as   
+
