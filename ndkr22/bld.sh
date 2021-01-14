@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t cross-docker-base:latest .
+docker build -t cd-ndk:r22 .
