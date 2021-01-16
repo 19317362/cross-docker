@@ -3,45 +3,49 @@
 # https://devblogs.microsoft.com/cppblog/using-multi-stage-containers-for-c-development/
 # https://blog.csdn.net/amimidou_212/article/details/106502393
 
-FROM alpine:latest
+FROM ubuntu:latest
 
 LABEL description="Build container - base container for all"
+ARG DEBIAN_FRONTEND=noninteractive
 ENV TZ=Asia/Shanghai
 
 
 # Installing packages and glibc
-RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories \
-    && apk update && apk upgrade && apk add --no-cache \ 
-    autoconf augeas \
-    build-base bash binutils bison \
-    cmake curl \
-    file \
-    gcc g++ git \
-    libgcc libtool linux-headers\
-    make \
-    ninja \
-    openssh \
-    pkgconfig python3 \
-    rsync rssh \
-    shadow \
-    tar tzdata \
-    unzip zip \
-    vim \
-    wget \
-    && echo -e "Port 22\n" >> /etc/ssh/sshd_config \
+RUN sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list \
+    && apt update -y \
+    && apt upgrade -y \
+    && apt install -y \
+        autoconf \
+        build-essential binutils bison \
+        curl file \
+        git \
+        libtool \
+        make \
+        ninja-build \
+        openssh-server \
+        pkg-config python3 \
+        rsync \
+        tar \
+        unzip zip \
+        vim \
+        wget     \
+    && mkdir -p /var/run/sshd \
+    && echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config \
     && sed -i s/#PermitRootLogin.*/PermitRootLogin\ yes/ /etc/ssh/sshd_config \
+    && ssh-keygen -A \
     && ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone \
-	&& ssh-keygen -t dsa -P "" -f /etc/ssh/ssh_host_dsa_key \
-	&& ssh-keygen -t rsa -P "" -f /etc/ssh/ssh_host_rsa_key \ 
-	&& ssh-keygen -t ecdsa -P "" -f /etc/ssh/ssh_host_ecdsa_key \
-	&& ssh-keygen -t ed25519 -P "" -f /etc/ssh/ssh_host_ed25519_key \
     && useradd noroot -u 1000 -s /bin/bash \
     && mkdir /home/noroot \
     && chown noroot:noroot /home/noroot \
     && echo "noroot:build" | chpasswd    \
-	&& echo "root:admin" | chpasswd    
+	&& echo "root:admin" | chpasswd
 
+    
 
+COPY cmake-3.19.3-Linux-x86_64.sh /tmp/
+
+RUN  sh /tmp/cmake-3.19.3-Linux-x86_64.sh --prefix=/usr --exclude-subdir \
+    && rm /tmp/cmake-3.19.3-Linux-x86_64.sh
 
 EXPOSE 22
 CMD ["/usr/sbin/sshd","-D"]
