@@ -1,0 +1,9 @@
+export PATH="/opt/:${PATH}"
+export CROSS=/opt/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi
+# export CC=${CROSS}-gcc
+# export CXX=${CROSS}-g++
+# export CPP=${CROSS}-cpp
+# export LD=${CROSS}-ld
+# export STRIP=${CROSS}-strip
+# export AR=${CROSS}-ar
+# export AS=${CROSS}-as
