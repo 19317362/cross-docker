@@ -15,25 +15,3 @@ COPY android-ndk-r18b /opt
 # Add ndk-build to the search path
 COPY bash_rc.sh /home/noroot/.bashrc
 COPY bash_rc.sh /root/.bashrc
-
-    && echo "noroot:build" | chpasswd    \
-	&& echo "root:admin" | chpasswd     
-
-    && echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config \
-    && ssh-keygen -A  \
-    && ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone \
-    && useradd noroot -u 1000 -s /bin/bash \
-    && mkdir /home/noroot \
-    && chown noroot:noroot /home/noroot \
-    && echo "noroot:build" | chpasswd    \
-	&& echo "root:admin" | chpasswd
-
-    \
-    && echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config \
-    && ssh-keygen -A  \
-    && ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone \
-    && useradd noroot -u 1000 -s /bin/bash \
-    && mkdir /home/noroot \
-    && chown noroot:noroot /home/noroot \
-    && echo "noroot:build" | chpasswd    \
-	&& echo "root:admin" | chpasswd
