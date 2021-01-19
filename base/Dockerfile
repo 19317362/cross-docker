@@ -23,13 +23,15 @@ RUN sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list \
         make \
         ninja-build \
         openssh-server \
-        pkg-config python3 \
+        pkg-config python3 python3-pip \
         rsync \
         tar \
         unzip zip \
         vim \
         wget     \
     && mkdir -p /var/run/sshd \
+    && pip3 config set global.index-url https://mirrors.aliyun.com/pypi/simple/ \
+    && pip3 install conan \
     && echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config \
     && sed -i s/#PermitRootLogin.*/PermitRootLogin\ yes/ /etc/ssh/sshd_config \
     && ssh-keygen -A \
