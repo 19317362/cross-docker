@@ -9,7 +9,7 @@ LABEL description="Build container - NDK R18B"
 # Installing packages and glibc
 
 # Copy Android NDK
-COPY android-ndk-r18b /opt
+COPY /opt/android-ndk-r18b /opt
 # https://dl.google.com/android/repository/android-ndk-r22-linux-x86_64.zip
 
 # Add ndk-build to the search path
