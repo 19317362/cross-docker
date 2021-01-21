@@ -12,15 +12,14 @@ HOST_TAG=linux-x86_64
 ABI=armeabi-v7a
 
 MINSDKVERSION=24
-
+    # -DANDROID_ARM_NEO=TRUE \
 cmake \
     -H. \
-    -Bcmake-android_24_arm_clang-linux-Release \
+    -Bcmake-ndk-linux-andorid-24-Release \
     -DCMAKE_TOOLCHAIN_FILE=$NDK/build/cmake/android.toolchain.cmake \
     -DANDROID_ABI=$ABI \
     -DANDROID_LD=lld \
     -DANDROID_STL=c++_shared \
-    -DANDROID_ARM_NEO=TRUE \
     -DANDROID_NATIVE_API_LEVEL=$MINSDKVERSION
 
-cmake --build cmake-android_24_arm_clang-linux-Release
+cmake --build cmake-ndk-linux-andorid-24-Release
