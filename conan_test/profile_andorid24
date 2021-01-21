@@ -13,6 +13,9 @@ compiler.version=11
 compiler.libcxx=c++_shared
 build_type=Release
 
+[options]
+*:shared=True
+
 [env]
 PATH=['$standalone_toolchain']
 CONAN_CMAKE_FIND_ROOT_PATH=$standalone_toolchain

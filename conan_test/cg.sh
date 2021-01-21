@@ -33,6 +33,14 @@ then
     bldType=$2
 fi
 
+# test failed
+# conan install .. --profile:host=profile_andorid24 --profile:build=default --build=missing
+
+# test ok
+# https://docs.conan.io/en/latest/integrations/cross_platform/android.html#id5
+# conan install <conanfile> --profile:host=profile_host --profile:build=default
+# cmake . -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake
+# cmake --build . --config Release
 # conan install .. --profile:host=profile_andorid24 --profile:build=default --build=missing
 
 

@@ -1,4 +1,4 @@
-#!/bin/bash
+lsl#!/bin/bash
 
 NDK=/home/wps/ywdev/cross-docker/ndkr22/android-ndk-r22
 HOST_TAG=linux-x86_64
