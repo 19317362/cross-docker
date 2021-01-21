@@ -33,7 +33,7 @@ then
     bldType=$2
 fi
 
-
+# conan install .. --profile:host=profile_andorid24 --profile:build=default --build=missing
 
 
 # fold
@@ -47,7 +47,7 @@ rm -rf ${bldDir}
 mkdir ${bldDir}
 pushd ${bldDir}
 
-conan install .. -pr ${pfName}
+conan install .. --profile ${pfName} --build=missing
 cmake .. -DCMAKE_BUILD_TYPE=${bldType}
 cmake --build .
 

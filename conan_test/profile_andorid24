@@ -1,5 +1,4 @@
 ndk=/opt/android-ndk-r22
-
 standalone_toolchain=$ndk/toolchains/llvm/prebuilt/linux-x86_64
 target_host=arm-linux-androideabi
 cc_compiler=clang
@@ -8,17 +7,11 @@ cxx_compiler=clang++
 [settings]
 os=Android
 os.api_level=24
-os_build=Linux
 arch=armv7
-arch_build=x86_64
-
 compiler=clang
 compiler.version=11
-compiler.libcxx=libc++
-
+compiler.libcxx=c++_shared
 build_type=Release
-[options]
-*:shared=True
 
 [env]
 PATH=['$standalone_toolchain']
@@ -37,5 +30,6 @@ CFLAGS= -fPIE -fPIC -I$standalone_toolchain/include/c++/4.9.x
 CXXFLAGS= -fPIE -fPIC -I$standalone_toolchain/include/c++/4.9.x
 LDFLAGS= -pie
 
+CONAN_MAKE_PROGRAM=$ndk/prebuilt/linux-x86_64/bin/make
 CONAN_CMAKE_TOOLCHAIN_FILE=$ndk/build/cmake/android.toolchain.cmake
 
