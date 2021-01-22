@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # usage:
-#  docker run -d --name wps-linaro-6.5 -p 2222:22 cd-linaro:6.5v1
+#  docker run -d --name wps-linaro-6.5 -p 2223:22 cd-linaro:6.5v1
 #  docker cp .  wps-linaro-6.5:/tmp/test/
 #  user:root
 #  pwd:admin

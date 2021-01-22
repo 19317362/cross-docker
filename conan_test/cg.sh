@@ -55,7 +55,7 @@ rm -rf ${bldDir}
 mkdir ${bldDir}
 pushd ${bldDir}
 
-conan install .. --profile:host=${pfName} --profile:build=default --build=missing
+conan install .. --profile:host=../${pfName} --profile:build=default --build=missing
 # cmake .. -DCMAKE_BUILD_TYPE=${bldType}
 # cmake --build .
 

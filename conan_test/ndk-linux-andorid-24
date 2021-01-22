@@ -17,7 +17,7 @@ build_type=Release
 *:shared=True
 
 [env]
-PATH=['$standalone_toolchain']
+
 CONAN_CMAKE_FIND_ROOT_PATH=$standalone_toolchain
 CONAN_CMAKE_SYSROOT=$standalone_toolchain/sysroot
 PATH=[$standalone_toolchain/bin]
