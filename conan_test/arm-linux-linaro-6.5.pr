@@ -1,6 +1,6 @@
 # cross=/home/wps/ywdev/cross-docker/linaro6.5/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabi
 # cross=/opt/cross
-standalone_toolchain=/opt/cross
+YW_CROSS_HOME=/opt/cross
 target_host=arm-linux-gnueabi
 cc_compiler=$target_host-gcc
 cxx_compiler=$target_host-g++
@@ -17,8 +17,9 @@ build_type=Release
 *:shared=True
 
 [env]
-CONAN_CMAKE_FIND_ROOT_PATH=$standalone_toolchain
-PATH=[$standalone_toolchain/bin]
+
+CONAN_CMAKE_FIND_ROOT_PATH=$YW_CROSS_HOME
+PATH=[$YW_CROSS_HOME/bin]
 CHOST=$target_host
 AR=$target_host-ar
 AS=$target_host-as

@@ -57,7 +57,8 @@ mkdir ${bldDir}
 pushd ${bldDir}
 
 # conan install .. --profile:host=../${pfName}.pr --profile:build=default --build=missing
-conan install .. -pr:h=../${pfName}.pr -pr:b=default -b=missing
+# -e CONAN_CMAKE_FIND_ROOT_PATH=${YW_CROSS_HOME} -e PATH=[{${YW_CROSS_HOME}}/bin] 也不行
+conan install ..   -pr:h=../${pfName}.pr -pr:b=default -b=missing
 cmake .. -DCMAKE_BUILD_TYPE=${bldType}  -DCMAKE_TOOLCHAIN_FILE=../${pfName}.cmake
 cmake --build .
 

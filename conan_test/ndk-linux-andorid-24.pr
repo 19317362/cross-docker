@@ -1,5 +1,5 @@
-ndk=$YW_CROSS_HOME
-standalone_toolchain=$ndk/toolchains/llvm/prebuilt/linux-x86_64
+# YW_CROSS_HOME=/opt/cross
+standalone_toolchain=$YW_CROSS_HOME/toolchains/llvm/prebuilt/linux-x86_64
 target_host=arm-linux-androideabi
 cc_compiler=clang
 cxx_compiler=clang++
@@ -33,6 +33,6 @@ CFLAGS= -fPIE -fPIC -I$standalone_toolchain/include/c++/4.9.x
 CXXFLAGS= -fPIE -fPIC -I$standalone_toolchain/include/c++/4.9.x
 LDFLAGS= -pie
 
-CONAN_MAKE_PROGRAM=$ndk/prebuilt/linux-x86_64/bin/make
-CONAN_CMAKE_TOOLCHAIN_FILE=$ndk/build/cmake/android.toolchain.cmake
+CONAN_MAKE_PROGRAM=$YW_CROSS_HOME/prebuilt/linux-x86_64/bin/make
+CONAN_CMAKE_TOOLCHAIN_FILE=$YW_CROSS_HOME/build/cmake/android.toolchain.cmake
 
