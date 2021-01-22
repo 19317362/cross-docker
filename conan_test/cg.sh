@@ -35,7 +35,8 @@ fi
 
 # test failed
 # conan install .. --profile:host=profile_andorid24 --profile:build=default --build=missing
-
+# export YW_CROSS_HOME=/opt/android-ndk-r22
+# export YW_CROSS_HOME=/home/wps/ywdev/cross-docker/linaro6.5/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabi
 # test ok
 # https://docs.conan.io/en/latest/integrations/cross_platform/android.html#id5
 # conan install <conanfile> --profile:host=profile_host --profile:build=default

@@ -1,5 +1,6 @@
-cross=/home/wps/ywdev/cross-docker/linaro6.5/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabi
-standalone_toolchain=$cross
+# cross=/home/wps/ywdev/cross-docker/linaro6.5/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabi
+# cross=/opt/cross
+standalone_toolchain=/opt/cross
 target_host=arm-linux-gnueabi
 cc_compiler=$target_host-gcc
 cxx_compiler=$target_host-g++

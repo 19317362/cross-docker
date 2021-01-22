@@ -1,4 +1,4 @@
-ndk=/opt/cross
+ndk=$YW_CROSS_HOME
 standalone_toolchain=$ndk/toolchains/llvm/prebuilt/linux-x86_64
 target_host=arm-linux-androideabi
 cc_compiler=clang

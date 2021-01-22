@@ -13,10 +13,10 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(untitled main.cpp)
 
-conan_target_link_libraries( # Specifies the target library.
+target_link_libraries( # Specifies the target library.
         untitled
 
         # Links
 
-        CONAN_PKG::c-ares
+        ${CONAN_LIBS}
         )
