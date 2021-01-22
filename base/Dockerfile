@@ -32,6 +32,7 @@ RUN sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list \
     && mkdir -p /var/run/sshd \
     && pip3 config set global.index-url https://mirrors.aliyun.com/pypi/simple/ \
     && pip3 install conan \
+    && conan profile new default --detect \
     && conan profile update settings.compiler.libcxx=libstdc++11 default \
     && echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config \
     && sed -i s/#PermitRootLogin.*/PermitRootLogin\ yes/ /etc/ssh/sshd_config \
