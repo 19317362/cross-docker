@@ -1,5 +1,5 @@
-export PATH="/opt/cross:${PATH}"
-export CROSS=/opt/cross/toolchains/llvm/prebuilt/linux-x86_64/bin/arm-linux-androideabi
+export PATH="/opt/:${PATH}"
+export CROSS=/opt/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi
 # export CC=${CROSS}-gcc
 # export CXX=${CROSS}-g++
 # export CPP=${CROSS}-cpp

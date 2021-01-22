@@ -41,8 +41,8 @@ fi
 # conan install <conanfile> --profile:host=profile_host --profile:build=default
 # cmake . -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake
 # cmake --build . --config Release
-# conan install .. --profile:host=profile_andorid24 --profile:build=default --build=missing
-
+# conan install .. --profile:host=ndk-linux-andorid-24  --profile:build=default --build=missing
+# conan install .. --profile:host=../ndk-linux-andorid-24 --profile:build=default --build=missing
 
 # fold
 bldDir="cmake-${pfName}-${bldType}"

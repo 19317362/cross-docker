@@ -1,5 +1,5 @@
 #!/bin/bash
-NDK=/opt/android-ndk-r22
+NDK=/opt/cross
 HOST_TAG=linux-x86_64
 
 # ABI	Triple

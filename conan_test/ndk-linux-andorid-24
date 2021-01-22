@@ -1,4 +1,4 @@
-ndk=/opt/android-ndk-r22
+ndk=/opt/cross
 standalone_toolchain=$ndk/toolchains/llvm/prebuilt/linux-x86_64
 target_host=arm-linux-androideabi
 cc_compiler=clang

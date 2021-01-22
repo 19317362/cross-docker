@@ -4,12 +4,12 @@
 
 FROM cd-base:latest
 
-LABEL description="Build container - NDK R22"
+LABEL description="Build container - gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabi"
 
 # Installing packages and glibc
 
 # Copy Android NDK
-COPY android-ndk-r22 /opt/cross
+COPY gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabi /opt/cross
 # https://dl.google.com/android/repository/android-ndk-r22-linux-x86_64.zip
 
 # Add ndk-build to the search path
