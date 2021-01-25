@@ -1,7 +1,7 @@
-# SET(CMAKE_FIND_ROOT_PATH /opt/cross)
-# set(PLATEFORM_COMPILER_TOOL "/opt/cross/bin/arm-linux-gnueabi-")
-SET(CMAKE_FIND_ROOT_PATH "$ENV{YW_CROSS_HOME}")
-set(PLATEFORM_COMPILER_TOOL "$ENV{YW_CROSS_HOME}/bin/arm-linux-gnueabi-")
+SET(CMAKE_FIND_ROOT_PATH /opt/cross)
+set(PLATEFORM_COMPILER_TOOL "${CMAKE_FIND_ROOT_PATH}/bin/arm-linux-gnueabi-")
+# SET(CMAKE_FIND_ROOT_PATH "$ENV{YW_CROSS_HOME}")
+# set(PLATEFORM_COMPILER_TOOL "$ENV{YW_CROSS_HOME}/bin/arm-linux-gnueabi-")
 
 # this one is important
 SET(CMAKE_SYSTEM_NAME Linux)
