@@ -1,0 +1,48 @@
+[settings]
+    arch=armv7
+    build_type=Release
+    compiler=clang
+    compiler.version=11
+    os=Android
+    os.api_level=24
+
+[requires]
+
+
+[options]
+    shared=True
+
+[full_settings]
+    arch=armv7
+    build_type=Release
+    compiler=clang
+    compiler.version=11
+    os=Android
+    os.api_level=24
+
+[full_requires]
+
+
+[full_options]
+    shared=True
+
+[recipe_hash]
+    f9533e7aa60f90fbda08ebdca0513c03
+
+[env]
+    AR=arm-linux-androideabi-ar
+    AS=arm-linux-androideabi-as
+    CC=arm-linux-androideabi-clang
+    CFLAGS=-fPIE -fPIC -Ic:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/linux-x86_64/include/c++/4.9.x
+    CHOST=arm-linux-androideabi
+    CONAN_CMAKE_FIND_ROOT_PATH=c:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/linux-x86_64
+    CONAN_CMAKE_SYSROOT=c:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/linux-x86_64/sysroot
+    CONAN_CMAKE_TOOLCHAIN_FILE=c:/Android/Sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake
+    CONAN_MAKE_PROGRAM=c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe
+    CXX=arm-linux-androideabi-clang++
+    CXXFLAGS=-fPIE -fPIC -Ic:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/linux-x86_64/include/c++/4.9.x
+    LD=arm-linux-androideabi-ld
+    LDFLAGS=-pie
+    PATH=[c:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/linux-x86_64/bin]
+    RANLIB=arm-linux-androideabi-ranlib
+    STRIP=arm-linux-androideabi-strip

@@ -1,0 +1,1123 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-march=armv7-a;-mthumb;-Wformat;-Werror=format-security;
+Id flags:  
+
+The output was:
+1
+clang: warning: argument unused during compilation: '-mthumb' [-Wunused-command-line-argument]
+error: unknown target CPU 'armv7-a'
+note: valid target CPU values are: nocona, core2, penryn, bonnell, atom, silvermont, slm, goldmont, goldmont-plus, tremont, nehalem, corei7, westmere, sandybridge, corei7-avx, ivybridge, core-avx-i, haswell, core-avx2, broadwell, skylake, skylake-avx512, skx, cascadelake, cooperlake, cannonlake, icelake-client, icelake-server, tigerlake, knl, knm, k8, athlon64, athlon-fx, opteron, k8-sse3, athlon64-sse3, opteron-sse3, amdfam10, barcelona, btver1, btver2, bdver1, bdver2, bdver3, bdver4, znver1, znver2, x86-64
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-march=armv7-a;-mthumb;-Wformat;-Werror=format-security;
+Id flags: -c 
+
+The output was:
+1
+clang: warning: argument unused during compilation: '-mthumb' [-Wunused-command-line-argument]
+error: unknown target CPU 'armv7-a'
+note: valid target CPU values are: nocona, core2, penryn, bonnell, atom, silvermont, slm, goldmont, goldmont-plus, tremont, nehalem, corei7, westmere, sandybridge, corei7-avx, ivybridge, core-avx-i, haswell, core-avx2, broadwell, skylake, skylake-avx512, skx, cascadelake, cooperlake, cannonlake, icelake-client, icelake-server, tigerlake, knl, knm, k8, athlon64, athlon-fx, opteron, k8-sse3, athlon64-sse3, opteron-sse3, amdfam10, barcelona, btver1, btver2, bdver1, bdver2, bdver3, bdver4, znver1, znver2, x86-64
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-march=armv7-a;-mthumb;-Wformat;-Werror=format-security;
+Id flags: -Aa 
+
+The output was:
+1
+clang: warning: argument unused during compilation: '-mthumb' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-Aa' [-Wunused-command-line-argument]
+error: unknown target CPU 'armv7-a'
+note: valid target CPU values are: nocona, core2, penryn, bonnell, atom, silvermont, slm, goldmont, goldmont-plus, tremont, nehalem, corei7, westmere, sandybridge, corei7-avx, ivybridge, core-avx-i, haswell, core-avx2, broadwell, skylake, skylake-avx512, skx, cascadelake, cooperlake, cannonlake, icelake-client, icelake-server, tigerlake, knl, knm, k8, athlon64, athlon-fx, opteron, k8-sse3, athlon64-sse3, opteron-sse3, amdfam10, barcelona, btver1, btver2, bdver1, bdver2, bdver3, bdver4, znver1, znver2, x86-64
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-march=armv7-a;-mthumb;-Wformat;-Werror=format-security;
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+clang: warning: argument unused during compilation: '-mthumb' [-Wunused-command-line-argument]
+error: unknown target CPU 'armv7-a'
+note: valid target CPU values are: nocona, core2, penryn, bonnell, atom, silvermont, slm, goldmont, goldmont-plus, tremont, nehalem, corei7, westmere, sandybridge, corei7-avx, ivybridge, core-avx-i, haswell, core-avx2, broadwell, skylake, skylake-avx512, skx, cascadelake, cooperlake, cannonlake, icelake-client, icelake-server, tigerlake, knl, knm, k8, athlon64, athlon-fx, opteron, k8-sse3, athlon64-sse3, opteron-sse3, amdfam10, barcelona, btver1, btver2, bdver1, bdver2, bdver3, bdver4, znver1, znver2, x86-64
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-march=armv7-a;-mthumb;-Wformat;-Werror=format-security;
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+ld.lld: error: unable to find library -lc
+ld.lld: error: unable to find library -lm
+ld.lld: error: unable to find library -lclang_rt.builtins-arm
+clang: error: ld.lld command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+lld: error: unable to find library -lmingw32
+lld: error: unable to find library -lgcc
+lld: error: unable to find library -lgcc_eh
+lld: error: unable to find library -lmoldname
+lld: error: unable to find library -lmingwex
+lld: error: unable to find library -lmsvcrt
+lld: error: unable to find library -ladvapi32
+lld: error: unable to find library -lshell32
+lld: error: unable to find library -luser32
+lld: error: unable to find library -lkernel32
+lld: error: unable to find library -lmingw32
+lld: error: unable to find library -lgcc
+lld: error: unable to find library -lgcc_eh
+lld: error: unable to find library -lmoldname
+lld: error: unable to find library -lmingwex
+lld: error: unable to find library -lmsvcrt
+lld: error: unable to find library -lkernel32
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-march=armv7-a;-mthumb;-Wformat;-Werror=format-security;;
+Id flags:  
+
+The output was:
+1
+clang++: warning: argument unused during compilation: '-mthumb' [-Wunused-command-line-argument]
+error: unknown target CPU 'armv7-a'
+note: valid target CPU values are: nocona, core2, penryn, bonnell, atom, silvermont, slm, goldmont, goldmont-plus, tremont, nehalem, corei7, westmere, sandybridge, corei7-avx, ivybridge, core-avx-i, haswell, core-avx2, broadwell, skylake, skylake-avx512, skx, cascadelake, cooperlake, cannonlake, icelake-client, icelake-server, tigerlake, knl, knm, k8, athlon64, athlon-fx, opteron, k8-sse3, athlon64-sse3, opteron-sse3, amdfam10, barcelona, btver1, btver2, bdver1, bdver2, bdver3, bdver4, znver1, znver2, x86-64
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-march=armv7-a;-mthumb;-Wformat;-Werror=format-security;;
+Id flags: -c 
+
+The output was:
+1
+clang++: warning: argument unused during compilation: '-mthumb' [-Wunused-command-line-argument]
+error: unknown target CPU 'armv7-a'
+note: valid target CPU values are: nocona, core2, penryn, bonnell, atom, silvermont, slm, goldmont, goldmont-plus, tremont, nehalem, corei7, westmere, sandybridge, corei7-avx, ivybridge, core-avx-i, haswell, core-avx2, broadwell, skylake, skylake-avx512, skx, cascadelake, cooperlake, cannonlake, icelake-client, icelake-server, tigerlake, knl, knm, k8, athlon64, athlon-fx, opteron, k8-sse3, athlon64-sse3, opteron-sse3, amdfam10, barcelona, btver1, btver2, bdver1, bdver2, bdver3, bdver4, znver1, znver2, x86-64
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-march=armv7-a;-mthumb;-Wformat;-Werror=format-security;;
+Id flags: --c++ 
+
+The output was:
+1
+clang++: error: unsupported option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-march=armv7-a;-mthumb;-Wformat;-Werror=format-security;;
+Id flags: --ec++ 
+
+The output was:
+1
+clang++: error: unsupported option '--ec++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-march=armv7-a;-mthumb;-Wformat;-Werror=format-security;;
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+ld.lld: error: unable to find library -lc++
+ld.lld: error: unable to find library -lc++abi
+ld.lld: error: unable to find library -lunwind
+ld.lld: error: unable to find library -lc
+ld.lld: error: unable to find library -lm
+ld.lld: error: unable to find library -lclang_rt.builtins-arm
+clang++: error: ld.lld command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+lld: error: unable to find library -lstdc++
+lld: error: unable to find library -lmingw32
+lld: error: unable to find library -lgcc_s
+lld: error: unable to find library -lgcc
+lld: error: unable to find library -lmoldname
+lld: error: unable to find library -lmingwex
+lld: error: unable to find library -lmsvcrt
+lld: error: unable to find library -ladvapi32
+lld: error: unable to find library -lshell32
+lld: error: unable to find library -luser32
+lld: error: unable to find library -lkernel32
+lld: error: unable to find library -lmingw32
+lld: error: unable to find library -lgcc_s
+lld: error: unable to find library -lgcc
+lld: error: unable to find library -lmoldname
+lld: error: unable to find library -lmingwex
+lld: error: unable to find library -lmsvcrt
+lld: error: unable to find library -lkernel32
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Determining if the function res_servicename exists failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_39af0/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_39af0.dir\build.make CMakeFiles/cmTC_39af0.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39af0.dir/CheckFunctionExists.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security    -DCHECK_FUNCTION_EXISTS=res_servicename -fPIE -o CMakeFiles\cmTC_39af0.dir\CheckFunctionExists.c.o -c C:\APP\CMake\share\cmake-3.18\Modules\CheckFunctionExists.c
+Linking C executable cmTC_39af0
+C:\APP\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_39af0.dir\link.txt --verbose=1
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security    -DCHECK_FUNCTION_EXISTS=res_servicename -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_39af0.dir/CheckFunctionExists.c.o -o cmTC_39af0  -latomic -lm 
+ld: error: undefined symbol: res_servicename
+>>> referenced by CheckFunctionExists.c:17 (C:\APP\CMake\share\cmake-3.18\Modules\CheckFunctionExists.c:17)
+>>>               CMakeFiles/cmTC_39af0.dir/CheckFunctionExists.c.o:(main)
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles\cmTC_39af0.dir\build.make:105: cmTC_39af0] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_39af0/fast] Error 2
+
+
+
+Determining if the function res_servicename exists in the resolv failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_c3a29/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_c3a29.dir\build.make CMakeFiles/cmTC_c3a29.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3a29.dir/CheckFunctionExists.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security    -DCHECK_FUNCTION_EXISTS=res_servicename -fPIE -o CMakeFiles\cmTC_c3a29.dir\CheckFunctionExists.c.o -c C:\APP\CMake\share\cmake-3.18\Modules\CheckFunctionExists.c
+Linking C executable cmTC_c3a29
+C:\APP\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_c3a29.dir\link.txt --verbose=1
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security    -DCHECK_FUNCTION_EXISTS=res_servicename -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_c3a29.dir/CheckFunctionExists.c.o -o cmTC_c3a29  -lresolv -latomic -lm 
+ld: error: unable to find library -lresolv
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles\cmTC_c3a29.dir\build.make:105: cmTC_c3a29] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_c3a29/fast] Error 2
+
+
+
+Determining if files socket.h exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_8bcf8/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_8bcf8.dir\build.make CMakeFiles/cmTC_8bcf8.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8bcf8.dir/HAVE_SOCKET_H.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_8bcf8.dir\HAVE_SOCKET_H.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CheckIncludeFiles\HAVE_SOCKET_H.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CheckIncludeFiles\HAVE_SOCKET_H.c:2:10: fatal error: 'socket.h' file not found
+#include <socket.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_8bcf8.dir\build.make:84: CMakeFiles/cmTC_8bcf8.dir/HAVE_SOCKET_H.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_8bcf8/fast] Error 2
+
+
+Source:
+/* */
+#include <socket.h>
+
+
+int main(void){return 0;}
+
+Determining if files stropts.h exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_32e42/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_32e42.dir\build.make CMakeFiles/cmTC_32e42.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_32e42.dir/HAVE_STROPTS_H.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_32e42.dir\HAVE_STROPTS_H.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c:2:10: fatal error: 'stropts.h' file not found
+#include <stropts.h>
+         ^~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_32e42.dir\build.make:84: CMakeFiles/cmTC_32e42.dir/HAVE_STROPTS_H.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_32e42/fast] Error 2
+
+
+Source:
+/* */
+#include <stropts.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock2.h;windows.h exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_68ec8/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_68ec8.dir\build.make CMakeFiles/cmTC_68ec8.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68ec8.dir/HAVE_WINSOCK2_H.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_68ec8.dir\HAVE_WINSOCK2_H.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK2_H.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK2_H.c:2:10: fatal error: 'winsock2.h' file not found
+#include <winsock2.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_68ec8.dir\build.make:84: CMakeFiles/cmTC_68ec8.dir/HAVE_WINSOCK2_H.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_68ec8/fast] Error 2
+
+
+Source:
+/* */
+#include <winsock2.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock2.h;ws2tcpip.h;windows.h exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_902aa/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_902aa.dir\build.make CMakeFiles/cmTC_902aa.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_902aa.dir/HAVE_WS2TCPIP_H.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_902aa.dir\HAVE_WS2TCPIP_H.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CheckIncludeFiles\HAVE_WS2TCPIP_H.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CheckIncludeFiles\HAVE_WS2TCPIP_H.c:2:10: fatal error: 'winsock2.h' file not found
+#include <winsock2.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_902aa.dir\build.make:84: CMakeFiles/cmTC_902aa.dir/HAVE_WS2TCPIP_H.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_902aa/fast] Error 2
+
+
+Source:
+/* */
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock.h;windows.h exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_4aff4/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_4aff4.dir\build.make CMakeFiles/cmTC_4aff4.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4aff4.dir/HAVE_WINSOCK_H.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_4aff4.dir\HAVE_WINSOCK_H.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK_H.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK_H.c:2:10: fatal error: 'winsock.h' file not found
+#include <winsock.h>
+         ^~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_4aff4.dir\build.make:84: CMakeFiles/cmTC_4aff4.dir/HAVE_WINSOCK_H.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_4aff4/fast] Error 2
+
+
+Source:
+/* */
+#include <winsock.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_5f1dc/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_5f1dc.dir\build.make CMakeFiles/cmTC_5f1dc.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f1dc.dir/HAVE_WINDOWS_H.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_5f1dc.dir\HAVE_WINDOWS_H.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c:2:10: fatal error: 'windows.h' file not found
+#include <windows.h>
+         ^~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_5f1dc.dir\build.make:84: CMakeFiles/cmTC_5f1dc.dir/HAVE_WINDOWS_H.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_5f1dc/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_TYPE_SOCKET failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_1329f/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_1329f.dir\build.make CMakeFiles/cmTC_1329f.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1329f.dir/src.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security    -DHAVE_TYPE_SOCKET -fPIE -o CMakeFiles\cmTC_1329f.dir\src.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\src.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\src.c:26:4: error: use of undeclared identifier 'SOCKET'
+                        SOCKET var_exists;
+                        ^
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\src.c:27:10: error: use of undeclared identifier 'var_exists'
+                        (void)var_exists;
+                              ^
+2 errors generated.
+make[1]: *** [CMakeFiles\cmTC_1329f.dir\build.make:84: CMakeFiles/cmTC_1329f.dir/src.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_1329f/fast] Error 2
+
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			SOCKET var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Determining if the SO_NONBLOCK exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_42008/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_42008.dir\build.make CMakeFiles/cmTC_42008.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42008.dir/CheckSymbolExists.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_42008.dir\CheckSymbolExists.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c:27:19: error: use of undeclared identifier 'SO_NONBLOCK'
+  return ((int*)(&SO_NONBLOCK))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_42008.dir\build.make:84: CMakeFiles/cmTC_42008.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_42008/fast] Error 2
+
+
+File C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SO_NONBLOCK
+  return ((int*)(&SO_NONBLOCK))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the bitncmp exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_a8e06/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_a8e06.dir\build.make CMakeFiles/cmTC_a8e06.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8e06.dir/CheckSymbolExists.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_a8e06.dir\CheckSymbolExists.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c:27:19: error: use of undeclared identifier 'bitncmp'
+  return ((int*)(&bitncmp))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_a8e06.dir\build.make:84: CMakeFiles/cmTC_a8e06.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_a8e06/fast] Error 2
+
+
+File C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bitncmp
+  return ((int*)(&bitncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the closesocket exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_754eb/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_754eb.dir\build.make CMakeFiles/cmTC_754eb.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_754eb.dir/CheckSymbolExists.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_754eb.dir\CheckSymbolExists.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c:27:19: error: use of undeclared identifier 'closesocket'
+  return ((int*)(&closesocket))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_754eb.dir\build.make:84: CMakeFiles/cmTC_754eb.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_754eb/fast] Error 2
+
+
+File C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef closesocket
+  return ((int*)(&closesocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CloseSocket exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_73f3f/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_73f3f.dir\build.make CMakeFiles/cmTC_73f3f.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73f3f.dir/CheckSymbolExists.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_73f3f.dir\CheckSymbolExists.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c:27:19: error: use of undeclared identifier 'CloseSocket'
+  return ((int*)(&CloseSocket))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_73f3f.dir\build.make:84: CMakeFiles/cmTC_73f3f.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_73f3f/fast] Error 2
+
+
+File C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CloseSocket
+  return ((int*)(&CloseSocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getservbyport_r exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_64548/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_64548.dir\build.make CMakeFiles/cmTC_64548.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64548.dir/CheckSymbolExists.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_64548.dir\CheckSymbolExists.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c:27:19: error: use of undeclared identifier 'getservbyport_r'; did you mean 'getservbyport'?
+  return ((int*)(&getservbyport_r))[argc];
+                  ^~~~~~~~~~~~~~~
+                  getservbyport
+C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\netdb.h:262:17: note: 'getservbyport' declared here
+struct servent* getservbyport(int __port_in_network_order, const char* __proto);
+                ^
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_64548.dir\build.make:84: CMakeFiles/cmTC_64548.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_64548/fast] Error 2
+
+
+File C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getservbyport_r
+  return ((int*)(&getservbyport_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getservbyname_r exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_3b0f9/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_3b0f9.dir\build.make CMakeFiles/cmTC_3b0f9.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b0f9.dir/CheckSymbolExists.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_3b0f9.dir\CheckSymbolExists.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c:27:19: error: use of undeclared identifier 'getservbyname_r'; did you mean 'getservbyname'?
+  return ((int*)(&getservbyname_r))[argc];
+                  ^~~~~~~~~~~~~~~
+                  getservbyname
+C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\netdb.h:261:17: note: 'getservbyname' declared here
+struct servent* getservbyname(const char* __name, const char* __proto);
+                ^
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_3b0f9.dir\build.make:84: CMakeFiles/cmTC_3b0f9.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_3b0f9/fast] Error 2
+
+
+File C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getservbyname_r
+  return ((int*)(&getservbyname_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inet_net_pton exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_eaba5/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_eaba5.dir\build.make CMakeFiles/cmTC_eaba5.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eaba5.dir/CheckSymbolExists.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_eaba5.dir\CheckSymbolExists.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c:27:19: error: use of undeclared identifier 'inet_net_pton'; did you mean 'inet_pton'?
+  return ((int*)(&inet_net_pton))[argc];
+                  ^~~~~~~~~~~~~
+                  inet_pton
+C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\arpa/inet.h:53:5: note: 'inet_pton' declared here
+int inet_pton(int __af, const char* __src, void* __dst);
+    ^
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_eaba5.dir\build.make:84: CMakeFiles/cmTC_eaba5.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_eaba5/fast] Error 2
+
+
+File C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_net_pton
+  return ((int*)(&inet_net_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ioctl exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_61d08/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_61d08.dir\build.make CMakeFiles/cmTC_61d08.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61d08.dir/CheckSymbolExists.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_61d08.dir\CheckSymbolExists.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c:27:19: error: address of overloaded function 'ioctl' is ambiguous
+  return ((int*)(&ioctl))[argc];
+                  ^~~~~
+C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\bits/ioctl.h:60:5: note: candidate function
+int ioctl(int __fd, unsigned __request, ...) __overloadable __enable_if(1, "") __RENAME(ioctl);
+    ^
+C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\bits/ioctl.h:43:5: note: candidate function
+int ioctl(int __fd, int __request, ...);
+    ^
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_61d08.dir\build.make:84: CMakeFiles/cmTC_61d08.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_61d08/fast] Error 2
+
+
+File C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctl
+  return ((int*)(&ioctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ioctlsocket exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_3428e/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_3428e.dir\build.make CMakeFiles/cmTC_3428e.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3428e.dir/CheckSymbolExists.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_3428e.dir\CheckSymbolExists.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c:27:19: error: use of undeclared identifier 'ioctlsocket'
+  return ((int*)(&ioctlsocket))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_3428e.dir\build.make:84: CMakeFiles/cmTC_3428e.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_3428e/fast] Error 2
+
+
+File C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctlsocket
+  return ((int*)(&ioctlsocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the IoctlSocket exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_c44e6/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_c44e6.dir\build.make CMakeFiles/cmTC_c44e6.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c44e6.dir/CheckSymbolExists.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_c44e6.dir\CheckSymbolExists.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c:27:19: error: use of undeclared identifier 'IoctlSocket'
+  return ((int*)(&IoctlSocket))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_c44e6.dir\build.make:84: CMakeFiles/cmTC_c44e6.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_c44e6/fast] Error 2
+
+
+File C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef IoctlSocket
+  return ((int*)(&IoctlSocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcmpi exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_75f19/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_75f19.dir\build.make CMakeFiles/cmTC_75f19.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75f19.dir/CheckSymbolExists.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_75f19.dir\CheckSymbolExists.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c:27:19: error: use of undeclared identifier 'strcmpi'; did you mean 'strcmp'?
+  return ((int*)(&strcmpi))[argc];
+                  ^~~~~~~
+                  strcmp
+C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\string.h:102:5: note: 'strcmp' declared here
+int strcmp(const char* __lhs, const char* __rhs) __attribute_pure__;
+    ^
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_75f19.dir\build.make:84: CMakeFiles/cmTC_75f19.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_75f19/fast] Error 2
+
+
+File C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcmpi
+  return ((int*)(&strcmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the stricmp exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_310f9/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_310f9.dir\build.make CMakeFiles/cmTC_310f9.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_310f9.dir/CheckSymbolExists.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_310f9.dir\CheckSymbolExists.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c:27:19: error: use of undeclared identifier 'stricmp'
+  return ((int*)(&stricmp))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_310f9.dir\build.make:84: CMakeFiles/cmTC_310f9.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_310f9/fast] Error 2
+
+
+File C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef stricmp
+  return ((int*)(&stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strncmpi exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_d8c42/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_d8c42.dir\build.make CMakeFiles/cmTC_d8c42.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8c42.dir/CheckSymbolExists.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_d8c42.dir\CheckSymbolExists.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c:27:19: error: use of undeclared identifier 'strncmpi'; did you mean 'strncmp'?
+  return ((int*)(&strncmpi))[argc];
+                  ^~~~~~~~
+                  strncmp
+C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\string.h:137:5: note: 'strncmp' declared here
+int strncmp(const char* __lhs, const char* __rhs, size_t __n) __attribute_pure__;
+    ^
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_d8c42.dir\build.make:84: CMakeFiles/cmTC_d8c42.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_d8c42/fast] Error 2
+
+
+File C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmpi
+  return ((int*)(&strncmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strnicmp exist failed with the following output:
+Change Dir: C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe cmTC_29ff3/fast && c:/Android/Sdk/ndk/22.0.7026061/prebuilt/windows-x86_64/bin/make.exe  -f CMakeFiles\cmTC_29ff3.dir\build.make CMakeFiles/cmTC_29ff3.dir/build
+make[1]: Entering directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29ff3.dir/CheckSymbolExists.c.o
+C:\Android\Sdk\ndk\22.0.7026061\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security     -fPIE -o CMakeFiles\cmTC_29ff3.dir\CheckSymbolExists.c.o -c C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\wps\.conan\data\c-ares\1.17.1\_\_\build\bac82b5eeb9b93cdb9d09d30f87674c16801709a\build_subfolder\CMakeFiles\CMakeTmp\CheckSymbolExists.c:27:19: error: use of undeclared identifier 'strnicmp'; did you mean 'strncmp'?
+  return ((int*)(&strnicmp))[argc];
+                  ^~~~~~~~
+                  strncmp
+C:/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\string.h:137:5: note: 'strncmp' declared here
+int strncmp(const char* __lhs, const char* __rhs, size_t __n) __attribute_pure__;
+    ^
+1 error generated.
+make[1]: *** [CMakeFiles\cmTC_29ff3.dir\build.make:84: CMakeFiles/cmTC_29ff3.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory 'C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:139: cmTC_29ff3/fast] Error 2
+
+
+File C:/Users/wps/.conan/data/c-ares/1.17.1/_/_/build/bac82b5eeb9b93cdb9d09d30f87674c16801709a/build_subfolder/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnicmp
+  return ((int*)(&strnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
