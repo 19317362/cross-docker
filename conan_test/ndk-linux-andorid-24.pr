@@ -1,4 +1,4 @@
-# YW_CROSS_HOME=/opt/cross
+YW_CROSS_HOME=/opt/cross
 standalone_toolchain=$YW_CROSS_HOME/toolchains/llvm/prebuilt/linux-x86_64
 target_host=arm-linux-androideabi
 cc_compiler=clang
