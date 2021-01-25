@@ -1,5 +1,5 @@
-ndk=c:/Android/Sdk/ndk/22.0.7026061
-standalone_toolchain=$ndk/toolchains/llvm/prebuilt/windows-x86_64
+YW_CROSS_HOME=c:/Android/Sdk/ndk/22.0.7026061
+standalone_toolchain=$YW_CROSS_HOME/toolchains/llvm/prebuilt/windows-x86_64
 target_host=arm-linux-androideabi
 cc_compiler=clang
 cxx_compiler=clang++
@@ -7,16 +7,14 @@ cxx_compiler=clang++
 [settings]
 os=Android
 os.api_level=24
-os_build=Windows
 arch=armv7
-arch_build=x86_64
-
 compiler=clang
 compiler.version=11
-compiler.libcxx=libc++
-
+compiler.libcxx=c++_shared
 build_type=Release
 
+[options]
+*:shared=True
 
 [env]
 
@@ -35,6 +33,6 @@ CFLAGS= -fPIE -fPIC -I$standalone_toolchain/include/c++/4.9.x
 CXXFLAGS= -fPIE -fPIC -I$standalone_toolchain/include/c++/4.9.x
 LDFLAGS= -pie
 
-CONAN_MAKE_PROGRAM=$ndk/prebuilt/windows-x86_64/bin/make.exe
-CONAN_CMAKE_TOOLCHAIN_FILE=$ndk/build/cmake/android.toolchain.cmake
+CONAN_MAKE_PROGRAM=$YW_CROSS_HOME/prebuilt/windows-x86_64/bin/make.exe
+CONAN_CMAKE_TOOLCHAIN_FILE=$YW_CROSS_HOME/build/cmake/android.toolchain.cmake
 

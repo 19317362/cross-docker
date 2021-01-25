@@ -1,0 +1,10 @@
+set(CMAKE_BUILD_TYPE "Release" CACHE STRING "Choose the type of build." FORCE)
+
+set(CMAKE_SYSTEM_NAME Android)
+set(CMAKE_SYSTEM_VERSION 24)
+set(CMAKE_ANDROID_API 24)
+set(CMAKE_ANDROID_ARCH_ABI armeabi-v7a)
+set(CMAKE_ANDROID_STL_TYPE c++_shared)
+set(CMAKE_ANDROID_NDK "$ENV{YW_CROSS_HOME}")
+set(CMAKE_MAKE_PROGRAM "$ENV{YW_CROSS_HOME}/prebuilt/windows-x86_64/bin/make.exe")
+include("$ENV{YW_CROSS_HOME}/build/cmake/android.toolchain.cmake")
